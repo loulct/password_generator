@@ -6,6 +6,5 @@ Password manager in Python
 - RSA encryption & decryption
 
 ### TODO
-- fix whitespace bug
 - improve management
 - improve UI
