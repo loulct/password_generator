@@ -48,7 +48,7 @@ class Interface(Frame):
         for index in range(0, int(self.length.get())):
             password.append(random.choice(chars[random.randint(0, len(chars)-1)]))
 
-        self.output.insert(0,password)
+        self.output.insert(0,''.join(password))
 
 
 
