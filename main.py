@@ -53,6 +53,7 @@ class Interface(Frame):
 
 
 window = Tk()
+window.title("Password generator")
 interface = Interface(window)
 interface.mainloop()
 interface.destroy()
